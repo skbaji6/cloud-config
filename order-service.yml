@@ -1,0 +1,15 @@
+spring:
+    datasource:
+        datasource:
+        driverClassName: org.h2.Driver
+        password: password
+        url: jdbc:h2:mem:orderdb
+        username: sa
+        initialization-mode: always
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.H2Dialect
+        show-sql: true
