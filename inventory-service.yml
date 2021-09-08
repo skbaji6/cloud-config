@@ -7,9 +7,5 @@ spring:
         username: sa
         initialization-mode: always
     jpa:
-        hibernate:
-            ddl-auto: update
-        properties:
-            hibernate:
-                dialect: org.hibernate.dialect.H2Dialect
+        database-platform: org.hibernate.dialect.H2Dialect
         show-sql: true
