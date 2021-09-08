@@ -3,7 +3,7 @@ spring:
         datasource:
         driverClassName: org.h2.Driver
         password: password
-        url: jdbc:h2:mem:orderdb
+        url: jdbc:h2:mem:inventorydb
         username: sa
         initialization-mode: always
     jpa:
